@@ -8,7 +8,10 @@ set -e
 git pull 
 
 git add .
-git commit -m "init"
+# commit参数
+git commit -m "$*"
+# commit默认
+# git commit -m "upd"
 
 git push -u origin master
 
