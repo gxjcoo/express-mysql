@@ -7,8 +7,7 @@ var fs = require('fs');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var mysql = require('./mysql')
-mysql()
+
 var app = express();
 
 // view engine setup
