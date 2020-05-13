@@ -1,0 +1,1 @@
+export default () => <div>我是404</div>
